@@ -20,6 +20,10 @@ fn test() {
     println!("Success!");
 }
 
+// Fix error without adding new line
+fn stringy() {
+    let s: str = "hello, world";
+}
 
 // Fill the blanks to make it work
 fn practice() {
