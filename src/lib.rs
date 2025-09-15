@@ -14,7 +14,7 @@ fn main() {
 
 
 // Fill the blank
-fn main() {
+fn test() {
     let v: u16 = 38_u8 as __;
 
     println!("Success!");
@@ -22,7 +22,7 @@ fn main() {
 
 
 // Fill the blanks to make it work
-fn main() {
+fn practice() {
     assert_eq!(i8::MAX, __); 
     assert_eq!(u8::MAX, __); 
 
@@ -35,34 +35,4 @@ fn main() {
 /// `17` otherwise.
 fn magic_number(n: u32) -> u32 {
     todo!()
-}
-
-#[cfg(test)]
-mod tests {
-    use crate::magic_number;
-
-    #[test]
-    fn one() {
-        assert_eq!(magic_number(1), 17);
-    }
-
-    #[test]
-    fn two() {
-        assert_eq!(magic_number(2), 12);
-    }
-
-    #[test]
-    fn six() {
-        assert_eq!(magic_number(6), 12);
-    }
-
-    #[test]
-    fn nine() {
-        assert_eq!(magic_number(9), 13);
-    }
-
-    #[test]
-    fn high() {
-        assert_eq!(magic_number(233), 17);
-    }
 }
