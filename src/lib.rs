@@ -27,8 +27,8 @@ fn stringy() {
 
 // Fill the blanks to make it work
 fn practice() {
-    assert_eq!(i8::MAX, __); 
-    assert_eq!(u8::MAX, __); 
+    assert_eq!(i8::MIN, __); 
+    assert_eq!(u8::MIN, __); 
 
     println!("Success!");
 }
